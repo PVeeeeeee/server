@@ -1,0 +1,211 @@
+#edit{
+    display: none;
+}
+#product{
+    display: none;
+}
+#priceEdit{
+    margin-left: 180px;
+}
+#atributosAdd label{
+    display: block;
+}
+#atributosAdd input{
+    display: inline-block;
+}
+#atributosAdd button{
+    display: block;
+}
+#atributosAdd span{
+    display: inline-block;
+}
+#remover label{
+    display: block;
+}
+#all{
+    padding: 0;
+    margin: 0;
+    font-family: Trebuchet MS, sans-serif;
+    background-color: #cd943c;
+}
+.up{
+    display: block;
+}
+.teto{
+    background-color: #2f271d;
+    padding: 10px;
+    padding-bottom: 5px;
+    position: fixed;
+    left:0;
+    right: 0;
+    top:0;
+}
+.teto img{
+    width: 150px;
+    min-width: 90px;
+}
+a{
+    font-size: 30px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.teto a:hover{
+    color: #cd943c;
+    text-decoration: underline;
+}
+#back{
+    background-image: url("../img/budega.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 101px;
+    height: 500px;
+    width: 100%;
+}
+.mid{
+
+}
+#rd1{
+    background-color: #cd943c;
+    height: 190px;
+    width: 100%;
+    padding-top: 10px;
+}
+#coo{
+margin-bottom: -19px;
+margin-left: 21px;
+font-size: 17px;
+}
+.down iframe{
+    height: 170px;
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.down a{
+    display: block;
+    margin-top: 8px;
+    font-size: 17px;
+    margin-left: 0;
+}
+.down a:hover{
+    color: #2f271d;
+}
+#link{
+    margin-left: 390px;
+    margin-top: -140px;
+}
+#rd2{
+    margin-top: 29px;
+    background-color: #2f271d;
+    text-align: center;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    font-size: 15px;
+    color: white;
+    margin-bottom: -500px;
+}
+
+.login{
+    margin-top: -420px;
+    padding: 50px;
+    width: 350px;
+    background-color: #863429;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px;
+}
+.login label{
+    font-size: 42px;
+}
+.login input{
+    height: 35px;
+    width: 92%;
+    display: block;
+    font-size: 15px;
+    padding-left: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+#view{
+    width: 4.3%;
+    margin-left: -71.5%;
+    display: inline;
+    margin-top: 6px;
+    vertical-align: -10px;
+}
+.login button{
+    margin: auto;
+    display: block;
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+}
+.caixa{
+    background-color: brown;
+    border-radius: 10px;
+    padding: 20px;
+    padding-right: 30px;
+    width: 250px;
+    margin-top: 130px;
+}
+.caixa input{
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+}
+.caixa button{
+    margin-top: 20px;
+    width: 60%;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+}
+.right{
+    border: solid red 7px;
+    width: 350px;
+    overflow: auto;
+    height: 500px;
+    max-height: 500px;
+    margin-left: 70%;
+    margin-right: 10%;
+    margin-top: -200px;
+}
+.total{
+    margin-top: -100px;
+}
+.editar{
+    margin-left: 700px;
+    margin-top: -125px;
+}
+#alle{
+    margin-top: 200px;
+}
+#alle input{
+height: 30px;
+margin-bottom: 20px;
+}
+.produto {
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+.produto img{
+    width: 180px;
+}
+.produto p {
+    background-color: brown;
+    color: white;
+    padding: 5px 10px;
+}
+.produto p:hover {
+    background-color: red;    
+}
+
+#produtos {
+    display: flex;
+    justify-content: space-around;
+}

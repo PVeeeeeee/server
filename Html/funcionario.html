@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Funcionario</title>
+        <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+
+        <link href="../arq/Style.css" rel="stylesheet"/>
+        <script src="../arq/Funcoes.js" type="text/javascript"> </script>			
+        <script src="../arq/DataBase.js" type="text/javascript"> </script>
+        <script src="https://kit.fontawesome.com/ffefd0cb2d.js" crossorigin="anonymous"></script>	
+
+</head>
+<body id="all">
+
+	<div class="up">
+            <div id="back"></div>
+            <div class="teto">
+                <img onclick="home()" src="../img/budegalogo.png">
+                <a href="../html/budega.html">Página Inicial</a>
+                <a href="../html/funcionario.html">Funcionário</a>
+            </div>
+        </div>
+
+	<center><div class="login">
+		<center><label>Login</label></center>
+	<input type="text" placeholder="User" id="nick">
+	<input type="password" placeholder="Senha" id="passw">
+	<input type="checkbox" id="view" onclick="view()">Exibir senha</input>
+
+	<button onclick="login()" id="enter">Entrar</button>
+</div>
+</center>
+<div id="rd2">
+	<p>Budega © 2022</p>
+            </div>
+</body>
+</html>

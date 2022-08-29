@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Caixa</title>
+        <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+
+        <link href="../arq/Style.css" rel="stylesheet"/>
+        <script src="../arq/Funcoes.js" type="text/javascript"> </script>			
+        <script src="../arq/DataBase.js" type="text/javascript"> </script>			
+        
+    </head>
+    <body id="allc">
+        <div class="up">
+            <div class="teto">
+                <img src="../img/budegalogo.png">
+                <a href="#">Página Inicial</a>
+                <a href="../html/funcionario.html">Funcionário</a>
+                <a href="../html/editar.html">Editar</a>
+            </div>
+        </div>
+
+        <div class="caixa">
+        <label>Serial:</label> <input type="text" id="serial_produto"><br>
+        <label>Quantidade:</label> <input type="text" id="qnt_produto">
+        <center><button onclick="adicionar_serial()">Adicionar</button></center>
+    </div>
+    <div class="right">
+        <table id="tabela">
+            <tr>
+                <th>serial</th>
+                <th>nome</th>
+                <th>preço</th>
+                <th>Quantidade</th>
+                <th>preço total</th>
+            </tr>
+        </table>
+    </div>
+    <div class="total">
+        <label>preço final:</label> <h1 id="valor_final"></h1>
+        <button onclick="finalizar()">finalizar venda</button>
+    </div>
+        
+    </body>
+</html>
